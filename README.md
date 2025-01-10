@@ -2,9 +2,59 @@
 
 这是一个针对个人使用场景优化的 Quantumult X 配置文件，主要特点是注重节省流量和提高访问速度。
 
+## 资源
+
+### 1. 官网
+
+- 真官网（虽然什么都没有）
+  - https://quantumult.app/x/
+- GitHub
+  - https://github.com/crossutility/Quantumult-X
+- 假官网（虽然假，但提供了一些教程，还挺有用）
+  - https://quantumultx.org/
+
+### 2. 新手教程
+
+- https://github.com/kjfx/QuantumultX
+
+对于入门有用，会了之后就没什么收获了。
+
+### 3. 资源解析器
+
+机场网站无 Quantumult X 订阅链接的，SS/SSR订阅链接可以使用，如果是V2Ray和Trojan订阅链接不能直接导入 Quantumult X ，
+
+需要添加一个`资源解析器`，使`用资源解析器`后，可以将 Quantumult X 不识别的`节点或订阅链接`轻松的导入。
+
+``` 资源解析器
+resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
+```
+
+``` 资源解析器备用链接
+resource_parser_url=https://fastly.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scripts/resource-parser.js
+```
+
+### 4. 两位大神的配置规则
+
+- https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Orz-3.conf
+- https://raw.githubusercontent.com/w37fhy/QuantumultX/master/QuantumultX_diy.conf
+
+主要是参考用，不会写的时候去看看人家怎么写的。第二个参考价值更大。
+
+### 5. 规则List
+
+- https://github.com/blackmatrix7/ios_rule_script
+
+提供了分流规则用的各种List，非常全，分门别类，配置的时候直接去取。
+
+### 6. 图标
+
+- https://github.com/Orz-3
+
+提供了配置文件中用到的策略图标和节点图标，好看有趣。
+
 ## 基本信息
 
-- 配置更新时间：2024-3-12 20:47
+- 配置更新时间：2025-01-10 23:00
 - 配置作者：玛卡巴卡
 
 ## 策略组设置
