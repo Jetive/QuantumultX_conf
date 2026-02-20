@@ -1,3 +1,16 @@
-# UPDATED: 2026-02-21 02:47
+# UPDATED: 2026-02-21 03:53
 
+IP-CIDR, 10.0.0.0/8, direct
+IP-CIDR, 127.0.0.0/8, direct
+IP-CIDR, 172.16.0.0/12, direct
+IP-CIDR, 192.168.0.0/16, direct
+IP-CIDR, 224.0.0.0/24, direct
+IP-CIDR, 182.254.116.0/24, direct
+HOST-SUFFIX, cn, direct
+GEOIP, cn, direct
+
+HOST-KEYWORD, openclaw, direct
+HOST-KEYWORD, openrouter, direct
+
+HOST-SUFFIX, mmstat.com, direct
 
