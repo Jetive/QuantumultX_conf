@@ -1,4 +1,4 @@
-# UPDATED: 2026-02-21 18:58
+# UPDATED: 2026-02-21 19:06
 
 IP-CIDR, 10.0.0.0/8, direct
 IP-CIDR, 127.0.0.0/8, direct
@@ -14,3 +14,4 @@ HOST-SUFFIX, mmstat.com, direct
 HOST-KEYWORD, openclaw, direct
 HOST-KEYWORD, openrouter, direct
 
+HOST-SUFFIX, anti-ad.net, direct
